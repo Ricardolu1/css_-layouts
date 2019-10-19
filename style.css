@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ol,ul{list-style: none;}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  background: #ddd;
+}
+header>.header{
+  height: 100px;
+}
+main{
+  flex-grow: 1;
+  overflow: auto;
+}
+footer{
+  background: #ddd;
+}
+footer>ul{
+  height: 100px;
+  display: flex;
+}
+footer>ul>li{
+  background: red;
+  width: 25%;
+  border: 1px solid black;
+  height: 100%;
+}
+
+
